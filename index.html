@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Promocional de Videos y Fotos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .media {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .media img, .media video {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenidos a Nuestra Página Promocional de Videos y Fotos</h1>
+    <p>Disfruta de una colección de imágenes y vídeos exclusivos</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Galería</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<section>
+    <div class="media">
+        <h3>Foto Destacada</h3>
+        <img src="12.jpg" type="JPG">
+        <p>Descripción de la foto.</p>
+    </div>
+
+    <div class="media">
+        <h3>Video Destacado</h3>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <p>Descripción del video.</p>
+    </div>
+
+    <div class="media">
+        <h3>Foto Adicional</h3>
+        <img src="11.jpg" alt="JPG">
+        <p>Otra descripción de foto.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Página Promocional. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
